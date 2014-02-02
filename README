@@ -1,0 +1,10 @@
+Quick hacky program that imports Movable Type 4 export files into
+[kkr](https://github.com/dchest/kkr) posts.
+
+If any of your posts has textile markup, install redcloth
+(apt-get install ruby-redcloth), so that this program can process them.
+
+USAGE:
+
+1. Export posts from Movable Type into e.g. posts.txt.
+2. Run mt2kkr path/to/posts/directory < posts.txt
